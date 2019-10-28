@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.28307.902
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManager.API", "DeviceManager.API\DeviceManager.API.csproj", "{71D426CB-43C4-470B-A8F1-08EA974A4B47}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManager.DAL", "DeviceManager.DAL\DeviceManager.DAL.csproj", "{94200DAE-F5D8-47D3-8A09-FA9F841CE6BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceManager.BLL", "DeviceManager.BLL\DeviceManager.BLL.csproj", "{64FFEA6B-CA9E-4642-B59C-B764B0E91C0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{71D426CB-43C4-470B-A8F1-08EA974A4B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71D426CB-43C4-470B-A8F1-08EA974A4B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71D426CB-43C4-470B-A8F1-08EA974A4B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94200DAE-F5D8-47D3-8A09-FA9F841CE6BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94200DAE-F5D8-47D3-8A09-FA9F841CE6BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94200DAE-F5D8-47D3-8A09-FA9F841CE6BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94200DAE-F5D8-47D3-8A09-FA9F841CE6BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FFEA6B-CA9E-4642-B59C-B764B0E91C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FFEA6B-CA9E-4642-B59C-B764B0E91C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FFEA6B-CA9E-4642-B59C-B764B0E91C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FFEA6B-CA9E-4642-B59C-B764B0E91C0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
